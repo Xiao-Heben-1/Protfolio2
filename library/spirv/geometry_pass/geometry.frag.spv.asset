@@ -1,0 +1,6 @@
+{
+  "uid": "e0db0d7d7c78096f277867bad61e6670",
+  "source_path": "shader/core/pass/geometry_pass/geometry.frag",
+  "library_path": "library/spirv/geometry_pass/geometry.frag.spv",
+  "signature": ""
+}

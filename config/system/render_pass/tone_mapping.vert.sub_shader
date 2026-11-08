@@ -1,0 +1,11 @@
+eb122a899728484da229981ea5c226f5
+{
+  "version": 1,
+  "name": "tone_mapping.vert",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "vertex",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/post_processing/tone_mapping.vert"
+}

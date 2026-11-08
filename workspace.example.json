@@ -1,0 +1,12 @@
+{
+  "workspace_root": ".",
+  "source_root": "src",
+  "library_root": "library",
+  "startup_scene": "generated/scenes/default.scene",
+  "builtin_shader_root": "D:/Project/render/build/library/builtin",
+  "shader_compiler": "",
+  "shader_include_roots": [
+    "src/shaders"
+  ],
+  "engine_root": "D:/Project/render"
+}

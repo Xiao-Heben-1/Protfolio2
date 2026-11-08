@@ -1,0 +1,11 @@
+dbf6c8a3c2bba4d7cc35e775afb56049
+{
+  "version": 1,
+  "name": "capture.frag",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "fragment",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/transparent_rendering/capture.frag"
+}

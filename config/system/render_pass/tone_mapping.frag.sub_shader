@@ -1,0 +1,11 @@
+402793469eee4e1db1e20df15353cd0f
+{
+  "version": 1,
+  "name": "tone_mapping.frag",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "fragment",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/post_processing/tone_mapping.frag"
+}

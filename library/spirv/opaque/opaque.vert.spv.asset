@@ -1,0 +1,6 @@
+{
+  "uid": "2562c4d5284644a08d6fa14f3582e798",
+  "source_path": "shader/core/pass/opaque_rendering/opaque.vert",
+  "library_path": "library/spirv/opaque/opaque.vert.spv",
+  "signature": ""
+}

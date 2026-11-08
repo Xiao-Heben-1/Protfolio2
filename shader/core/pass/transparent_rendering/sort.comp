@@ -1,0 +1,14 @@
+#version 450
+#extension GL_GOOGLE_include_directive : require
+#define RENDER_OIT_SORT
+#include "layout.glsl"
+#include "oit_heap.glsl"
+
+layout(local_size_x=8,local_size_y=8,local_size_z=1) in;
+
+void main(){
+    ivec2 pixel = ivec2(gl_GlobalInvocationID.xy);
+    if(any(greaterThanEqual(pixel,imageSize(oit_heap).xy))) return;
+    // 每个 invocation 独占一个像素，只排序，不计算光照或合成颜色。
+    sort_oit(pixel);
+}

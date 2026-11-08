@@ -1,0 +1,222 @@
+ba79288bb2bf47118b5489ac6c523c31
+{
+  "version": 1,
+  "name": "Default Scene",
+  "main_camera": {
+    "is_main": true,
+    "position": [
+      6,
+      4,
+      8
+    ],
+    "direction": [
+      -0.5497526526451111,
+      -0.29986515641212463,
+      -0.7796491980552673
+    ],
+    "fov": 50.0,
+    "aspect": 1.2922465801239014,
+    "near_plane": 0.10000000149011612,
+    "far_plane": 1152.0,
+    "dis": [
+      128.0,
+      512.0,
+      512.0,
+      1024.0
+    ],
+    "navigation": [
+      10.0,
+      0.0012000000569969416,
+      0.006000000052154064,
+      1.0,
+      4.0
+    ],
+    "width": 650,
+    "height": 503,
+    "g_buffer_format": 97,
+    "depth_format": 126
+  },
+  "lights": [],
+  "objects": [
+    {
+      "version": 1,
+      "guid": "a5c8595f4f5ee766dc6d1af1f42b88a4",
+      "name": "Cube",
+      "is_transparent": false,
+      "behavior": false,
+      "transform": {
+        "position": [
+          0.0,
+          0.5,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh": {
+        "builtin_geometry": "cube"
+      },
+      "material": {
+        "guids": [],
+        "overrides": [
+          {
+            "slot": 0,
+            "base_color": [
+              0.7200000286102295,
+              0.7200000286102295,
+              0.7200000286102295,
+              1.0
+            ],
+            "emissive_color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "metallic": 0.0,
+            "roughness": 0.6499999761581421,
+            "ao": 1.0,
+            "emissive_strength": 1.0,
+            "alpha_mode": 0,
+            "alpha_cutoff": 0.0,
+            "texture_channels": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "shader_guid": "",
+            "textures": {
+              "ao": "",
+              "base_color": "",
+              "emissive": "",
+              "metallic": "",
+              "normal": "",
+              "opacity": "",
+              "roughness": ""
+            }
+          }
+        ]
+      },
+      "lights": []
+    },
+    {
+      "version": 1,
+      "guid": "8706067fc5d4f3c7bd9d77314e7124bd",
+      "name": "Main Camera",
+      "is_transparent": false,
+      "behavior": false,
+      "transform": {
+        "position": [
+          6,
+          4,
+          8
+        ],
+        "rotation": [
+          -0.3671738803386688,
+          0.5820680856704712,
+          0.20837420225143433
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "camera": {
+        "is_main": true,
+        "position": [
+          6,
+          4,
+          8
+        ],
+        "direction": [
+          -0.5497526526451111,
+          -0.29986515641212463,
+          -0.7796491980552673
+        ],
+        "fov": 50.0,
+        "aspect": 1.2922465801239014,
+        "near_plane": 0.10000000149011612,
+        "far_plane": 1152.0,
+        "dis": [
+          128.0,
+          512.0,
+          512.0,
+          1024.0
+        ],
+        "navigation": [
+          10.0,
+          0.0012000000569969416,
+          0.006000000052154064,
+          1.0,
+          4.0
+        ],
+        "width": 650,
+        "height": 503,
+        "g_buffer_format": 97,
+        "depth_format": 126
+      },
+      "lights": []
+    },
+    {
+      "version": 1,
+      "guid": "33619b53796933b15b7f1ae1589d9f4b",
+      "name": "Sun",
+      "is_transparent": false,
+      "behavior": false,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "lights": [
+        {
+          "guid": "252cf4299a77c23ef721847a6210550d",
+          "name": "Sun",
+          "type": "main",
+          "direction": [
+            -0.4000000059604645,
+            -1.0,
+            -0.5
+          ],
+          "solar_irradiance": [
+            20,
+            20,
+            20
+          ],
+          "angular_radius": 0.004675,
+          "disk_intensity": 1
+        }
+      ]
+    }
+  ],
+  "skybox": {
+    "ground_color": [
+      0.15,
+      0.15,
+      0.15
+    ],
+    "exposure": 0.2
+  }
+}

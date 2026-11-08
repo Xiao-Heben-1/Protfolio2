@@ -1,0 +1,52 @@
+#version 450
+layout(local_size_x = 64) in;
+
+struct CullItem {
+    vec4 boundsMin;
+    vec4 boundsMax;
+    uvec4 identity; // instance index, LOD, transparent flag, padding. GUID stays in CPU resource metadata.
+};
+layout(std430,set=0,binding=0) readonly buffer Candidates { CullItem candidates[]; };
+layout(std140,set=0,binding=1) uniform Parameters {
+    vec4 planes[6]; // inward facing, Vulkan clip depth 0..w
+    uint candidateCount;
+    uint visibleCapacity;
+    uint padding0;
+    uint padding1;
+} params;
+layout(std430,set=0,binding=2) writeonly buffer Visible { uvec4 visible[]; };
+// Before dispatch: vkCmdFillBuffer to zero both counters + transfer->compute barrier.
+layout(std430,set=0,binding=3) buffer Counters { uint visibleCount; uint overflowCount; };
+struct DrawCommand {
+    uint indexCount;
+    uint instanceCount;
+    uint firstIndex;
+    int vertexOffset;
+    uint firstInstance;
+};
+// 与 VkDrawIndexedIndirectCommand 的 20 字节布局一致，每个候选对应一条命令。
+layout(std430,set=0,binding=4) buffer DrawCommands { DrawCommand commands[]; };
+layout(push_constant) uniform Dispatch { uint baseCandidate; } dispatchParams;
+
+void main() {
+    uint id = dispatchParams.baseCandidate + gl_GlobalInvocationID.x;
+    if(id >= min(params.candidateCount,uint(candidates.length()))) return;
+    if(id >= uint(commands.length())) return;
+    commands[id].instanceCount = 0;
+    CullItem item = candidates[id];
+    for(uint i=0; i<6; ++i) {
+        vec3 positive = mix(item.boundsMin.xyz,item.boundsMax.xyz,greaterThanEqual(params.planes[i].xyz,vec3(0)));
+        // Tangency stays visible. Planes need not be normalized.
+        if(dot(params.planes[i].xyz,positive) + params.planes[i].w < 0.0) return;
+    }
+    commands[id].instanceCount = 1;
+    uint capacity = min(params.visibleCapacity,uint(visible.length()));
+    // Saturating reservation: visibleCount always fits the output buffer.
+    uint slot = atomicAdd(visibleCount,0);
+    while(slot < capacity) {
+        uint previous = atomicCompSwap(visibleCount,slot,slot+1);
+        if(previous == slot) { visible[slot] = item.identity; return; }
+        slot = previous;
+    }
+    atomicAdd(overflowCount,1);
+}

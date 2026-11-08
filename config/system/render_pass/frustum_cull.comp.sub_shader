@@ -1,0 +1,11 @@
+ea4ee21a2cd0fdc2826ad7bd241b88de
+{
+  "version": 1,
+  "name": "frustum_cull.comp",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "compute",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/pre_processing/frustum_cull.comp"
+}

@@ -1,0 +1,11 @@
+843aaf75cf52c3cc38e8e362843e0e37
+{
+  "version": 1,
+  "name": "resolve.frag",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "fragment",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/transparent_rendering/resolve.frag"
+}

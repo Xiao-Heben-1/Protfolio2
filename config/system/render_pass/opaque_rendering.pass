@@ -1,0 +1,40 @@
+8d4ea10295ab595c41ebe3792bc7fd98
+{
+  "version": 1,
+  "name": "opaque_rendering",
+  "builtin": "opaque_rendering",
+  "shader_guid": "2fcb995528c1155fe460d064444c9cbb",
+  "enabled": true,
+  "order": 200,
+  "stage": "opaque",
+  "kind": "graphics",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": true,
+  "depth_write": true,
+  "depth_compare": 1,
+  "color_blends": [
+    {
+      "enabled": false,
+      "src_color": 1,
+      "dst_color": 0,
+      "color_op": 0,
+      "src_alpha": 1,
+      "dst_alpha": 0,
+      "alpha_op": 0,
+      "write_mask": 15
+    },
+    {
+      "enabled": false,
+      "src_color": 1,
+      "dst_color": 0,
+      "color_op": 0,
+      "src_alpha": 1,
+      "dst_alpha": 0,
+      "alpha_op": 0,
+      "write_mask": 15
+    }
+  ]
+}

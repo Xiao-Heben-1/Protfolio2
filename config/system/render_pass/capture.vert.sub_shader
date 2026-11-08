@@ -1,0 +1,11 @@
+d98b4ca54227e203840d293ba86741e2
+{
+  "version": 1,
+  "name": "capture.vert",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "vertex",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/transparent_rendering/capture.vert"
+}

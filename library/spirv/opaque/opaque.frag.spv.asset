@@ -1,0 +1,6 @@
+{
+  "uid": "326b7659845b6b073efe38ac8d905b98",
+  "source_path": "shader/core/pass/opaque_rendering/opaque.frag",
+  "library_path": "library/spirv/opaque/opaque.frag.spv",
+  "signature": ""
+}

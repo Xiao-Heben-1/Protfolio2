@@ -1,0 +1,11 @@
+83088d07c1a34597821b71b307d68ff0
+{
+  "version": 1,
+  "name": "skybox.frag",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "fragment",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/skybox/skybox.frag"
+}

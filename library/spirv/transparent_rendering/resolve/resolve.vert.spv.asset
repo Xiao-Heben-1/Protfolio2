@@ -1,0 +1,6 @@
+{
+  "uid": "a9954ac1048b4b236b878a684ac91e49",
+  "source_path": "shader/core/pass/transparent_rendering/resolve.vert",
+  "library_path": "library/spirv/transparent_rendering/resolve/resolve.vert.spv",
+  "signature": ""
+}

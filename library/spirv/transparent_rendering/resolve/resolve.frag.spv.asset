@@ -1,0 +1,6 @@
+{
+  "uid": "19430daf461c717960835345e144155e",
+  "source_path": "shader/core/pass/transparent_rendering/resolve.frag",
+  "library_path": "library/spirv/transparent_rendering/resolve/resolve.frag.spv",
+  "signature": ""
+}

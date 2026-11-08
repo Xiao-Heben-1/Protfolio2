@@ -1,0 +1,19 @@
+148eb45175469bc53d22f478c87151c2
+{
+  "version": 1,
+  "name": "pre_processing",
+  "builtin": "pre_processing",
+  "shader_guid": "d5c2617d236c472bf290745c3fa38ea6",
+  "enabled": true,
+  "order": 0,
+  "stage": "pre_processing",
+  "kind": "compute",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": false,
+  "depth_write": false,
+  "depth_compare": 1,
+  "color_blends": []
+}

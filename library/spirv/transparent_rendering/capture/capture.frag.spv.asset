@@ -1,0 +1,6 @@
+{
+  "uid": "c874c574b554bf656a9df91a4288a085",
+  "source_path": "shader/core/pass/transparent_rendering/capture.frag",
+  "library_path": "library/spirv/transparent_rendering/capture/capture.frag.spv",
+  "signature": ""
+}

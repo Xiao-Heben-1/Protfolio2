@@ -1,0 +1,11 @@
+d59d289d1940476d63e45ba06a777245
+{
+  "version": 1,
+  "name": "sort.comp",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "compute",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/transparent_rendering/sort.comp"
+}

@@ -1,0 +1,19 @@
+883a622bf22775632651ae9c576c7270
+{
+  "version": 1,
+  "name": "transparent_sort",
+  "builtin": "transparent_sort",
+  "shader_guid": "d9afbc1bcdf7037304babf0c761bcad3",
+  "enabled": true,
+  "order": 400,
+  "stage": "transparent_sort",
+  "kind": "compute",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": false,
+  "depth_write": false,
+  "depth_compare": 1,
+  "color_blends": []
+}

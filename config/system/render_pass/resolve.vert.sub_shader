@@ -1,0 +1,11 @@
+3baad55d8b70682e7af785b4364090bc
+{
+  "version": 1,
+  "name": "resolve.vert",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "vertex",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/transparent_rendering/resolve.vert"
+}

@@ -1,0 +1,11 @@
+d4d6c9eab8b6d9b6c9e0c7df9c1cb6f7
+{
+  "version": 1,
+  "name": "opaque.vert",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "vertex",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/opaque_rendering/opaque.vert"
+}

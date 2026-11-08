@@ -1,0 +1,6 @@
+{
+  "uid": "bf1ba3abb1117b51d22b43fe6ccae129",
+  "source_path": "shader/core/pass/transparent_rendering/sort.comp",
+  "library_path": "library/spirv/transparent_rendering/sort/sort.comp.spv",
+  "signature": ""
+}

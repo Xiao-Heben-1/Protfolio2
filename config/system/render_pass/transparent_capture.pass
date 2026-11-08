@@ -1,0 +1,30 @@
+1b0caee1e7605503d98834591ae6b3a2
+{
+  "version": 1,
+  "name": "transparent_capture",
+  "builtin": "transparent_capture",
+  "shader_guid": "c46d4257456be67186956ac5e8ab88d9",
+  "enabled": true,
+  "order": 300,
+  "stage": "transparent_capture",
+  "kind": "graphics",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": true,
+  "depth_write": false,
+  "depth_compare": 3,
+  "color_blends": [
+    {
+      "enabled": true,
+      "src_color": 6,
+      "dst_color": 7,
+      "color_op": 0,
+      "src_alpha": 1,
+      "dst_alpha": 7,
+      "alpha_op": 0,
+      "write_mask": 15
+    }
+  ]
+}

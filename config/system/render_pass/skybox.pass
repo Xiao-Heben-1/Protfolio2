@@ -1,0 +1,19 @@
+1eddeee4ca9b440494e8ca0b48e59ff2
+{
+  "version": 1,
+  "name": "skybox",
+  "builtin": "skybox",
+  "shader_guid": "b6c406b8bab14c42a64489343cb5cb98",
+  "enabled": true,
+  "order": 150,
+  "stage": "skybox",
+  "kind": "graphics",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": true,
+  "depth_write": false,
+  "depth_compare": 3,
+  "color_blends": []
+}

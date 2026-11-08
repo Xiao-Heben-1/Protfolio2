@@ -1,0 +1,19 @@
+afaa8e7e303be3a7b909fa964e3c67da
+{
+  "version": 1,
+  "name": "tone_mapping",
+  "builtin": "post_processing",
+  "shader_guid": "74a304ff148f44c5a8e5b0c1b69c2abb",
+  "enabled": true,
+  "order": 600,
+  "stage": "post_processing",
+  "kind": "graphics",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": false,
+  "depth_write": false,
+  "depth_compare": 3,
+  "color_blends": []
+}

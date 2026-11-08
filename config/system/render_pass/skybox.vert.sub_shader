@@ -1,0 +1,11 @@
+b1cd01faf7b3466db4184c0baaac92a3
+{
+  "version": 1,
+  "name": "skybox.vert",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "vertex",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/skybox/skybox.vert"
+}

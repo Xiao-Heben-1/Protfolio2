@@ -1,0 +1,11 @@
+088c6ef746d06ca97766c4795c7dd3b3
+{
+  "version": 1,
+  "name": "opaque.frag",
+  "source_guid": "",
+  "entry_point": "main",
+  "stage": "fragment",
+  "defines": {},
+  "include_roots": [],
+  "builtin_source": "core/pass/opaque_rendering/opaque.frag"
+}

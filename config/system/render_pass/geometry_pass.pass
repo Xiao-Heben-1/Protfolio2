@@ -1,0 +1,19 @@
+7f7132c670ec52686096d12c64498537
+{
+  "version": 1,
+  "name": "geometry_pass",
+  "builtin": "geometry_pass",
+  "shader_guid": null,
+  "enabled": false,
+  "order": 100,
+  "stage": "geometry_pass",
+  "kind": "graphics",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": false,
+  "depth_write": false,
+  "depth_compare": 1,
+  "color_blends": []
+}

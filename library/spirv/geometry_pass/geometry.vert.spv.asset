@@ -1,0 +1,6 @@
+{
+  "uid": "29d53f6b77ffe5475cc099ca9d0360ca",
+  "source_path": "shader/core/pass/geometry_pass/geometry.vert",
+  "library_path": "library/spirv/geometry_pass/geometry.vert.spv",
+  "signature": ""
+}

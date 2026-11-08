@@ -1,0 +1,30 @@
+6965ee870ada9e1a7f1daf2109b2b970
+{
+  "version": 1,
+  "name": "transparent_resolve",
+  "builtin": "transparent_resolve",
+  "shader_guid": "3c4252fda068f607e29cee393702c246",
+  "enabled": true,
+  "order": 500,
+  "stage": "transparent_resolve",
+  "kind": "graphics",
+  "topology": 3,
+  "polygon_mode": 0,
+  "cull_mode": 0,
+  "front_face": 0,
+  "depth_test": false,
+  "depth_write": false,
+  "depth_compare": 3,
+  "color_blends": [
+    {
+      "enabled": true,
+      "src_color": 1,
+      "dst_color": 7,
+      "color_op": 0,
+      "src_alpha": 1,
+      "dst_alpha": 7,
+      "alpha_op": 0,
+      "write_mask": 15
+    }
+  ]
+}
